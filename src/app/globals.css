@@ -1,0 +1,20 @@
+.button {
+    height: 5rem;
+    width: 15rem;
+}
+
+.primary {
+    background: #4b0082;
+}
+
+.secondary{
+    background: #6CE00B;
+}
+
+.danger{
+    background: red;
+}
+
+.success{
+    background:forestgreen;
+}
