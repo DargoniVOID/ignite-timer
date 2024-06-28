@@ -1,17 +1,17 @@
+import React from 'react'
+
 import './globals.css'
 
-import React from "react";
-
 export default function RootLayout({
-    children,
+  children,
 }: {
-    children: React.ReactNode
+  children: React.ReactNode
 }) {
-    return (
-        <html lang="pt-br">
-            <body>
-                {children}
-            </body>
-        </html>
-    )
+  return (
+    <html lang="pt-br">
+      <head>
+        <body>{children}</body>
+      </head>
+    </html>
+  )
 }
